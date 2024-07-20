@@ -43,20 +43,20 @@
                                 <div class="row mt-3">
                                     <div class="col">
                                         <label for="exampleInputname" class="form-label">Nom</label>
-                                        <input type="text" name="nom" class="form-control">
+                                        <input type="text" name="nom" class="form-control" required />
                                     </div>
                                     <div class="col">
                                         <label for="exampleInputprenom" class="form-label">prénom</label>
-                                        <input type="text" name="prenom" class="form-control">
+                                        <input type="text" name="prenom" class="form-control" required />
                                     </div>
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Adresse email</label>
-                                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                                    <input type="password" name="pwd" class="form-control" id="exampleInputPassword1">
+                                    <input type="password" name="pwd" class="form-control" id="exampleInputPassword1" required />
                                 </div>
                                 <button type="submit" class="btn btn-primary">Créer un compte</button>
                                 <div class="mt-3">

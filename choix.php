@@ -41,7 +41,7 @@
     </style>
 
     <div class="container">
-        <h2 class="text-center mb-3" style="color: #132646;">Sélectionner votre statut</h2><br>
+        <h2 class="text-center mb-3" style="color: #fff;">Sélectionner votre statut</h2><br>
         <div class="btn-container grid-container grid-x">
             <div class="">
                 <a href="register_client.php" class="btn-contain">

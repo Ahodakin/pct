@@ -42,12 +42,12 @@
                             <form>
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Adresse email</label>
-                                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
                                     <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre email avec personne.</div>
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                                    <input type="password" name="pwd" class="form-control" id="exampleInputPassword1">
+                                    <input type="password" name="pwd" class="form-control" id="exampleInputPassword1" required />
                                     <div class="mt-2">
                                         <a href="email.php" class="text-decoration-none">Mot de passe oublié?</a>
                                     </div>

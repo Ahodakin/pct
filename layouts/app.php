@@ -73,25 +73,7 @@
                             <a href="#faq" class="nav-item nav-link">FAQ</a>
                             <a href="artisan.php" class="nav-item nav-link">Artisan</a>
                             <a href="#contact" class="nav-item nav-link">Contact</a>
-
-                            <!-- Artisan Section -->
-                            <!-- <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Artisans</a>
-                                <div class="dropdown-menu rounded">
-                                    <a href="" class="dropdown-item">Mon Profil</a>
-                                    <a href="" class="dropdown-item">Choisir un Pack Publicitaire</a>
-                                    <a href="" class="dropdown-item">Géolocaliser Mon Atelier</a>
-                                </div>
-                            </div> -->
-
-                            <!-- Client Section -->
-                            <!-- <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Clients</a>
-                                <div class="dropdown-menu rounded">
-                                    <a href="" class="dropdown-item">Demander un Service</a>
-                                    <a href="" class="dropdown-item">Trouver un Artisan</a>
-                                </div>
-                            </div> -->
+ 
                             
                             <!-- Admin Section -->
                             <!-- <div class="nav-item dropdown">
@@ -102,11 +84,26 @@
                             </div> -->
 
                         </div>
+
+                        
+                            
                         <!-- Signup and Login Buttons -->
+                       
                         <div class="d-flex align-items-center">
                             <a href="choix.php" class="btn btn-secondary mx-2">Inscription</a>
                             <a href="login.php" class="btn btn-light">Connexion</a>
+                          
                         </div>
+
+                        <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle btn btn-secondary mx-2" style="color: #fff;" data-bs-toggle="dropdown">Profil</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="profil.php" class="dropdown-item">Mon Profil</a>
+                                    <a href="password.php" class="dropdown-item">Changer le mot de passe</a>
+                                    <a href="pack_publicitaire.php" class="dropdown-item">Pack publicitaire</a>
+                                    <a href="" class="dropdown-item">Deconnexion</a>
+                                </div>
+                            </div> 
                         <!-- <div class="d-flex align-items-center">
                             <a href="login.php" class="btn btn-danger mx-2" >Logout</a>
                         </div> -->

@@ -60,13 +60,7 @@
                         <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
                             <div class="d-flex counter">
                                 <h1 class="me-3 text-primary counter-value">50</h1>
-                                <h5 class="text-white mt-1">Projets d'artisanat réalisés avec succès</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
-                            <div class="d-flex counter">
-                                <h1 class="me-3 text-primary counter-value">200</h1>
-                                <h5 class="text-white mt-1">Clients satisfaits de nos services d'artisanat</h5>
+                                <h5 class="text-white mt-1">Utilisateurs enregistrés sur notre plateforme</h5>
                             </div>
                         </div>
                     </div>
@@ -147,76 +141,7 @@
     </div>
     <!-- Services Fin -->
 
-    <!-- Team Start -->
-    <div class="container-fluid py-5 mb-5 team">
-        <style>
-            .team-img-size {
-                width: 320px;
-                height: 320px;
-            }
-        </style>
-        <div class="container">
-            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-            <h5 class="text-primary">Notre Équipe</h5>
-            <h1>Découvrez notre équipe d'experts</h1>
-            </div>
-            <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
-                <div class="rounded team-item">
-                    <div class="team-content">
-                        <div class="team-img-icon">
-                            <div class="team-img rounded-circle">
-                                <img src="img/team-1.jpeg" class="img-fluid rounded-circle team-img-size" alt=""  >
-                            </div>
-                            <div class="team-name text-center py-3">
-                                <h4 class="">Full Name</h4>
-                                <p class="m-0">Designation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="rounded team-item">
-                    <div class="team-content">
-                        <div class="team-img-icon">
-                            <div class="team-img rounded-circle">
-                                <img src="img/team-2.jpg" class="img-fluid rounded-circle team-img-size" alt="">
-                            </div>
-                            <div class="team-name text-center py-3">
-                                <h4 class="">Full Name</h4>
-                                <p class="m-0">Designation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="rounded team-item">
-                    <div class="team-content">
-                        <div class="team-img-icon">
-                            <div class="team-img rounded-circle">
-                                <img src="img/team-3.jpg" class="img-fluid rounded-circle team-img-size" alt="">
-                            </div>
-                            <div class="team-name text-center py-3">
-                                <h4 class="">Full Name</h4>
-                                <p class="m-0">Designation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="rounded team-item">
-                    <div class="team-content">
-                        <div class="team-img-icon">
-                            <div class="team-img rounded-circle">
-                                <img src="img/team-4.jpg" class="img-fluid rounded-circle team-img-size" alt="">
-                            </div>
-                            <div class="team-name text-center py-3">
-                                <h4 class="">Full Name</h4>
-                                <p class="m-0">Designation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+
 
         <!-- Témoignages Start -->
         <div class="container-fluid testimonial py-5 my-5">
@@ -380,7 +305,11 @@
                                         <input type="email" class="form-control border-0 py-3" placeholder="Votre email">
                                     </div>
                                     <div class="mb-4">
-                                        <input type="text" class="form-control border-0 py-3" placeholder="Objet">
+                                        <select class="form-select" aria-label="Default select example" required >
+                                            <option value="cep">Question</option>
+                                            <option value="bepc">Préoccupation</option>
+                                            <option value="bts">Autre</option>
+                                        </select>
                                     </div>
                                     <div class="mb-4">
                                         <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message"></textarea>
@@ -397,19 +326,12 @@
         </div>
         <!-- Contact End -->
 
+        <?php
+    include('footer.php');
+?>
 
         <script src="js/main.js"></script>
-            <!-- Footer Start -->
-        <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
-            <div class="container pt-5 pb-4">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start">
-                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>Entreprise 20</a>, Tous droits réservés.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
+
 
 
         
